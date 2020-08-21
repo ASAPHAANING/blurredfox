@@ -6,6 +6,14 @@
 URL bar
 */
 
+/*
+Swap url & tab bar
+*/
+#navigator-toolbox {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
 /* URL bar max-width and centered hack */
 #urlbar {
 	max-width: 70% !important;
